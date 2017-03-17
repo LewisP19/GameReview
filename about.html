@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project LP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+    
+ <div id="bg"></div>
+<section>
+  <nav>
+    <ul>
+      <li data-xcoord="0px" onclick="location.href='index.html';" >Home</li>
+      <li data-xcoord="160px" onclick="location.href='about.html';">About</li>
+      <li data-xcoord="320px" onclick="location.href='Xbox.html';">Xbox</li>
+      <li data-xcoord="480px" onclick="location.href='PS4.html';">PS4</li>
+        <li data-xcoord="480px" onclick="location.href='PS4.html';">FAQ</li>
+    </ul>
+  </nav>
+</section>
+    
+    
+    
+    
+    
+	<!--<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Lewis Pace  /  About</a>-->
+			<!--collapsale menu trigger-->
+			<!--<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>-->
+					<!--dropdown-->
+                    <!--<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="webdev.html">Web Development</a></li>
+                            <li><a href="apps.html">App Production</a></li>
+                            <li><a href="photo.html">Photography</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--about content-->
+    <div class="container">
+        <div class="row about">
+            <div class="col-lg-9">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="panel-header">
+                            <h3>About Lewis...<small>Hello</small></h3>
+                        </div>
+                        <img src="assets/sportsHall.jpg" class="featuredImg" width="100%"/>
+                        <p>Puppy kitty ipsum dolor sit good dog . Parakeet purr parakeet chirp water mouse critters warm paws leash wag tail left paw water dog fur lazy dog Tigger hamster good boy ID tag. Pet Food small animals teeth brush park carrier turtle park water aquarium foot gimme five chew chirp mouse ferret bed. Lazy Cat barky collar dog finch wet nose stripes vaccine puppy collar twine Scooby snacks litter fleas kitty cage yawn. Pet Food tabby teeth Mittens speak pet supplies stick behavior. Kitty Snowball meow lazy dog slobbery wet nose feeder leash pet gate dog house cage smooshy finch sit cage critters sit fluffy water slobbery.Fluffy cat good boy critters kitty turtle drool park toy ferret stripes hamster toys furry canary litter box cockatiel.</p>
+                            
+                            
+                           <p> Dog House barky catch string scratcher Buddy shake whiskers barky lick lazy dog fur dinnertime catch Buddy grooming collar leash paws polydactyl. Water lol catz vaccine Fido heel litter box kitten barky kibble bedding window park.Feathers wag tail stick aquatic paws wet nose feathers grooming lazy cat ID tag leash food toys fetch kitten polydactyl water running. Brush speak scratcher chew bird food chow pet supplies canary treats feathers drool harness toy Fido catch pet supplies cage mouse litter box.</p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="list-group">
+                    <a href="webdev.html" class="list-group-item">
+                        <h4 class="list-group-itemheader" ><i class="fa fa-code" aria-hidden="true"></i> Web Development</h4> 
+                        <p>Pet Food tabby teeth Mittens speak pet supplies stick behavior. Kitty Snowball meow lazy dog slobbery wet nose feeder leash pet gate dog house cage smooshy finch sit cage critters sit fluffy water slobbery.</p>
+                    </a>
+                    <a href="#apps.html" class="list-group-item">
+                        <h4 class="list-group-itemheader"><i class="fa fa-mobile" aria-hidden="true"></i> App Production</h4>
+                        <p>Pet Food tabby teeth Mittens speak pet supplies stick behavior. Kitty Snowball meow lazy dog slobbery wet nose feeder leash pet gate dog house cage smooshy finch sit cage critters sit fluffy water slobbery.</p>
+                    </a>
+                        <a href="photo.html" class="list-group-item">
+                        <h4 class="list-group-itemheader"><i class="fa fa-camera-retro" aria-hidden="true"></i> Photography</h4>
+                        <p>Pet Food tabby teeth Mittens speak pet supplies stick behavior. Kitty Snowball meow lazy dog slobbery wet nose feeder leash pet gate dog house cage smooshy finch sit cage critters sit fluffy water slobbery.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Lewis Pace</p>
+			<a class="navbar-btn btn btn-default pull-" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
